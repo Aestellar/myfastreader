@@ -1,0 +1,43 @@
+# Зависимости
+node_modules/
+.pnp
+.pnp.js
+
+# Сборка фронтенда
+dist/
+dist-ssr/
+*.local
+
+# Rust / Tauri
+src-tauri/target/
+src-tauri/gen/
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Редакторы
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Tauri bundle
+*.msi
+*.exe
+!src-tauri/target/**/build/**/*.exe
+
+# env
+.env
+.env.local
