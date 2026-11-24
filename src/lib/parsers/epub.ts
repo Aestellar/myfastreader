@@ -2,9 +2,6 @@ import JSZip from 'jszip';
 import type { BookChapter, BookMeta, BookResource, ParsedBook } from '../../types/book';
 import { findAll, countChars, sanitizeHtml, fallbackTitle } from '../text';
 
-const OPF_NS = 'http://www.idpf.org/2007/opf';
-const DC_NS = 'http://purl.org/dc/elements/1.1/';
-const XHTML_NS = 'http://www.w3.org/1999/xhtml';
 const XLINK_NS = 'http://www.w3.org/1999/xlink';
 const OPS_NS = 'http://www.idpf.org/2007/ops';
 const CONTAINER_PATH = 'META-INF/container.xml';

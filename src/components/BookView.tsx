@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import type { ParsedBook } from '../types/book';
 
 export function BookView({ book }: { book: ParsedBook }) {
